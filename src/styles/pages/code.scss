@@ -1,0 +1,25 @@
+#page-code {
+  section {
+    max-width: 1740px;
+    margin: auto;
+    padding: $space-lg;
+    > div {
+      display: flex;
+      flex-direction: column;
+      article {
+        padding: $space-sm;
+        display: flex;
+        justify-content: space-between;
+        > div:nth-child(1) {
+        }
+        > div:nth-child(2) {
+          img {
+            width: 535px;
+            height: 242px;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}

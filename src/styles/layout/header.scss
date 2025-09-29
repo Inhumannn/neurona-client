@@ -1,0 +1,18 @@
+header {
+  max-width: 1920px;
+  margin: auto;
+  padding: $space-xs;
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      div {
+        display: flex;
+        li {
+          padding: 0px 24px;
+        }
+      }
+    }
+  }
+}

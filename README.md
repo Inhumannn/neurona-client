@@ -1,48 +1,54 @@
-# Neurona - collaborative documentation
+# Client Neurona - documentation collaborative
 
-**Neurona** is a fully responsive collaborative website, responsive for all devices, built using React. It adapts to all devices and displays documentation.
+![Version](https://img.shields.io/badge/Version-1-0-0-blue.svg)
+![Statut CI](https://img.shields.io/badge/CI-Passing-brightgreen.svg)
 
-## Screenshots
+**Neurona** est un site web collaboratif entièrement réactif, adapté à tous les appareils, construit à l'aide de React.
 
-### View
+## Captures d'écran
 
-![Screenshot]()
+![Capture d'écran]()
 
-### View
+## Fonctionnalités
 
-![Screenshot]()
+- Conception réactive
 
-## Teck Stack
+## Technologies utilisées
 
-- **react** - TypeScript library for building user interfaces
-- **shadcn/ui** - Reusable UI components built on Radix UI and Tailwind CSS
-- **react-icons** - Icon library for languages
-- **lucide-react** - Icon library for icon
+- **@radix-ui/react-separator**: _v1.1.7_,
+- **@tailwindcss/vite**: _v4.1.12_,
+- **class-variance-authority**: _v0.7.1_,
+- **clsx**: _v2.1.1_,
+- **lucide-react**: _v0.542.0_,
+- **react**: _v19.1.1_,
+- **react-dom**: _v19.1.1_,
+- **react-router-dom**: _v7.8.2_,
+- **sass**: _v1.91.0_,
+- **tailwind-merge**: _v3.3.1_,
+- **tailwindcss**: _v4.1.12_
 
-## documentation
+## Installation
 
-- **documentation 1** - _description_
-- **documentation 2** - _description_
-- **documentation 3** - _description_
+### Prérequis
 
-_Other documentation are available in the online portfolio._
+- npm >= v10.9.2
+- Nodes.js >= v22.14.0
 
-## License
-
-Neurona was conceived and designed from start to finish by me.
-It will evolve over time as my skills and projects grow.
-
-This is not an open-source project. Please do not copy or reuse any part of this portfolio without my permission.
-
-## Contact
-
-Feel free to reach out or follow me on [LinkedIn](https://www.linkedin.com/in/thomas-pena-bermond/) or [GitHub](https://github.com/Inhumannn).
-
-## Launch the project locally
+### Lancer le projet localement
 
 ```bash
-git clone https://github.com/Inhumannn/neurona
-cd name-of-repo
+git clone https://github.com/Inhumannn/neurona-client
+cd nom-du-répertoire
 npm install
 npm run dev
 ```
+
+## Licence
+
+Ce projet est sous [licence propriétaire](LICENSE.md).
+
+## Auteurs
+
+N'hésitez pas à me contacter ou à me suivre sur [LinkedIn](https://www.linkedin.com/in/thomas-pena-bermond/) ou [GitHub](https://github.com/Inhumannn).
+
+## Questions fréquentes (FAQ) / dépannages
