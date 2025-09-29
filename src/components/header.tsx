@@ -11,26 +11,15 @@ import { Link } from "@radix-ui/react-navigation-menu";
 export function Header() {
   return (
     <header>
+      <a href="/">
+        <h1 className="logo">Neurona</h1>
+      </a>
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
             <NavigationMenuTrigger>
-              <NavigationMenuLink asChild>
-                <Link href="/">Neurona</Link>
-              </NavigationMenuLink>
+              <p>Code</p>
             </NavigationMenuTrigger>
-          </NavigationMenuItem>
-
-          <NavigationMenuItem>
-            <NavigationMenuTrigger>
-              <NavigationMenuLink asChild>
-                <Link href="/">Accueil</Link>
-              </NavigationMenuLink>
-            </NavigationMenuTrigger>
-          </NavigationMenuItem>
-
-          <NavigationMenuItem>
-            <NavigationMenuTrigger>Code</NavigationMenuTrigger>
             <NavigationMenuContent>
               <NavigationMenuLink asChild>
                 <Link href="/code">Documentation</Link>
@@ -42,7 +31,9 @@ export function Header() {
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Communauté</NavigationMenuTrigger>
+            <NavigationMenuTrigger>
+              <p>Communauté</p>
+            </NavigationMenuTrigger>
             <NavigationMenuContent>
               <NavigationMenuLink asChild>
                 <Link href="/forums">Forums</Link>
@@ -51,7 +42,9 @@ export function Header() {
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Veille</NavigationMenuTrigger>
+            <NavigationMenuTrigger>
+              <p>Veille</p>
+            </NavigationMenuTrigger>
             <NavigationMenuContent>
               <NavigationMenuLink asChild>
                 <Link href="/veille">Articles</Link>
