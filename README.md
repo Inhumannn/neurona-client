@@ -3,13 +3,24 @@
 ![Version](https://img.shields.io/badge/Version-1-0-0-blue.svg)
 ![Statut CI](https://img.shields.io/badge/CI-Passing-brightgreen.svg)
 
+## Table des matières
+
+- [Description](#description)
+- [Fonctionnalités](#fonctionnalités)
+- [Technologies utilisées](#technologies-utilisées)
+- [Structure du projet](#structure-du-projet)
+- [Installation](#installation)
+- [Déploiement en production](#déploiement-en-production)
+- [Aperçu](#aperçu)
+- [Licence](#licence)
+- [Auteurs](#auteurs)
+- [FAQ / Dépannage](#faq---dépannages)
+
 ## Description
 
 Neurona est une application web pensée pour les développeurs qui cherchent à apprendre, progresser et partager leurs connaissances dans un environnement collaboratif. Son rôle est de centraliser en un seul endroit ce qui est souvent dispersé : la documentation, les tutoriels, les actualités techniques et les discussions communautaires.
 
 ## Fonctionnalités
-
-### Application
 
 - Interface **responsive** (mobile, tablette, desktop)
 - Navigation fluide avec **React Router**
@@ -88,7 +99,7 @@ npm run build        # Construit l'application pour la production
 npm run preview      # Prévisualise la build de production
 ```
 
-## Déploiement ne production
+## Déploiement en production
 
 ### Déploiement avec Vercel
 
@@ -97,7 +108,7 @@ npm run preview      # Prévisualise la build de production
 3. Importer le repo GitHub "neurona-client"
 4. Déployer le projet
 
-## Captures d'écran
+## Aperçu
 
 ![Capture d'écran]()
 
