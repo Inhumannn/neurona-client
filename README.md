@@ -5,12 +5,20 @@
 
 ## Description
 
-**Neurona** est un site web collaboratif entièrement réactif, adapté à tous les appareils, construit à l'aide de React.
+Neurona est une application web pensée pour les développeurs qui cherchent à apprendre, progresser et partager leurs connaissances dans un environnement collaboratif. Son rôle est de centraliser en un seul endroit ce qui est souvent dispersé : la documentation, les tutoriels, les actualités techniques et les discussions communautaires.
 
 ## Fonctionnalités
 
-- Conception réactive
-- Documenter le projet avec README, et JSDoc.
+### Application
+
+- Interface **responsive** (mobile, tablette, desktop)
+- Navigation fluide avec **React Router**
+- Gestion des utilisateurs avec création et connection de compte
+- Accès à la documentation et aux tutoriels
+- Actualités intégrées via une API externe.
+- Espace communautaire pour échanger, poser des questions et partager.
+- Gestion des styles avec **SASS** et **TailwindCSS**
+- Documentation technique via **README**
 
 ## Technologies utilisées
 
@@ -86,8 +94,8 @@ npm run preview      # Prévisualise la build de production
 
 1. Créer une compte sur vercel
 2. Ajouter un nouveau projet
-2. Importer le repo GitHub "neurona-client"
-3. Déployer le projet
+3. Importer le repo GitHub "neurona-client"
+4. Déployer le projet
 
 ## Captures d'écran
 
@@ -102,3 +110,8 @@ Ce projet est sous [licence propriétaire](LICENSE.md).
 N'hésitez pas à me contacter ou à me suivre sur [LinkedIn](https://www.linkedin.com/in/thomas-pena-bermond/) ou [GitHub](https://github.com/Inhumannn).
 
 ## Questions fréquentes (FAQ) / dépannages
+
+### npm install échoue
+
+- Vérifier que Node.js et npm sont à jour
+- Supprimer node_modules et refaire npm install
